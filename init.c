@@ -164,10 +164,18 @@
  *	%B = VARIABLE NUMBER OF BLANKS
  *	%! = THE ENTIRE MESSAGE SHOULD BE SUPPRESSED */
 
+static raw_init();
+static finish_init();
+static void report();
+static quick_init();
+static quick_save();
+static quick_io();
+
+
 initialise() {
 	printf("Initialising...\n");
 	if(!quick_init()){raw_init(); report(); quick_save();}
-	finish_init();
+	return finish_init();
 }
 
 static raw_init() {
@@ -590,7 +598,7 @@ L1800:	{long x = 2*I+81; if(RTEXT[x] != 0)MAXDIE=I+1;}
 
 /*  REPORT ON AMOUNT OF ARRAYS ACTUALLY USED, TO PERMIT REDUCTIONS. */
 
-static report() {
+static void report() {
 	/* 1998 */ for (K=1; K<=LOCSIZ; K++) {
 	KK=LOCSIZ+1-K;
 	if(LTEXT[KK] != 0) goto L1997;

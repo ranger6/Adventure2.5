@@ -1,6 +1,7 @@
 #include "main.h"
 #include "misc.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 #define TRUE  (0==0)
 #define FALSE (0!=0)
@@ -839,7 +840,7 @@ void fBUG(NUM)long NUM; {
  *	28	INVALID MONTH RETURNED BY DATE FUNCTION
  *	29	TOO MANY PARAMETERS GIVEN TO SETPRM */
 
-	printf("Fatal error %d.  See source code for interpretation.\n",
+	printf("Fatal error %ld.  See source code for interpretation.\n",
 	   NUM);
 	exit(FALSE);
 }
