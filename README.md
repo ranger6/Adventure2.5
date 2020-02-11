@@ -6,5 +6,5 @@ The [ieure/Adventure2.5](https://github.com/ieure/Adventure2.5) project is a sim
 
 ## testing
 
-The code compiles cleanly via the Makefile on Darwin and Linux (Docker offical iamge: gcc:9.2.0) 
+The code compiles cleanly via the Makefile on Darwin (MacOS Mojave 10.14.6 with xcode installed) and Linux (Docker offical iamge: gcc:9.2.0) 
 Note that only the simplest "smoke test" for runtime behaviour has been done!
