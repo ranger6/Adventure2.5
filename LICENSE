@@ -1,4 +1,4 @@
-MIT License
+# MIT License
 
 Copyright (c) 2020 ranger6
 
@@ -19,3 +19,12 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+# Original Copyright
+
+Don Wood's Adventure 2.5: (c) Copyright 1995 by Donald R. Woods.
+
+This software may be freely redistributed if this notice is retained.
+(The author apologises for the style of the code; it is a result of
+running the original Fortran IV source through a home-brew Fortran-to-C
+converter.)
